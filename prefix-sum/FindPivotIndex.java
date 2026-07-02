@@ -1,0 +1,20 @@
+public class FindPivotIndex {
+
+    public static int pivotIndex(int[] nums){
+        int sum = 0;
+        int leftSum = 0;
+        for(int i = 0 ; i< nums.length; i++){
+            sum += nums[i];
+        }
+        for(int i = 0 ; i < nums.length ; i++){
+            int rightSum = sum - leftSum - nums[i];
+            if(rightSum==leftSum) return i;
+            leftSum += nums[i];
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
+        int[] nums = {2,-1,1};
+        System.out.println(pivotIndex(nums));
+    }
+}
