@@ -16,7 +16,7 @@ prefix[i] = prefix[i - 1] + nums[i]
 
 ## Problems Solved
 
--  Running Sum of 1D Array 
+-  Running Sum of 1D Array - Done
 -  Find Pivot Index
 -  Subarray Sum Equals K
--  Continuous Subarray Sum
+-  Continuous Subarray Sum - Done
