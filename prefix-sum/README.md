@@ -20,3 +20,5 @@ prefix[i] = prefix[i - 1] + nums[i]
 -  Find Pivot Index - Done
 -  Subarray Sum Equals K - Done
 -  Continuous Subarray Sum - Done
+-  Largest Altitude - Done
+-  Left And Right Sum Difference - Done
