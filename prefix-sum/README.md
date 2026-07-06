@@ -23,3 +23,4 @@ prefix[i] = prefix[i - 1] + nums[i]
 -  Largest Altitude - Done
 -  Left And Right Sum Difference - Done
 -  Subarray Sum Divisible By K - Done
+-  Contiguous Array - 
